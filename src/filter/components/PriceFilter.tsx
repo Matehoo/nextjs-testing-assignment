@@ -1,4 +1,5 @@
 import { NumberInput, RangeSlider } from "@mantine/core";
+import React from "react";
 import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { useLocalStorage } from "usehooks-ts";

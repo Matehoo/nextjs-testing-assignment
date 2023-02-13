@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "@emotion/styled";
 import { useLocalStorage } from "usehooks-ts";
 import { Filter, defaultFilters, CaravanType } from "../Filter";

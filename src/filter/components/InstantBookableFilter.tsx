@@ -1,4 +1,5 @@
 import { Select } from "@mantine/core";
+import React from "react";
 import styled from "styled-components";
 import { useLocalStorage } from "usehooks-ts";
 import { BoltIcon } from "../../card/icons/BoltIcon";

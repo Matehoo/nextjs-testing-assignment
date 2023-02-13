@@ -126,7 +126,6 @@ export const Card = ({
           mx="auto"
           withIndicators
           loop
-          withControls={false}
           height={200}
         >
           {pictures.map((picture, i) => {
