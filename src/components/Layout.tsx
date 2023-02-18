@@ -4,6 +4,7 @@ import { Card, CardType } from "../card/Card";
 import { useLocalStorage } from "usehooks-ts";
 import { defaultFilters, Filter, RESULTS_PER_PAGE, MIN_PRICE, MAX_PRICE } from "../filter/Filter";
 import { useEffect, useState } from "react";
+import React from "react";
 
 const LayoutContainer = styled.div`
   width: 100%;

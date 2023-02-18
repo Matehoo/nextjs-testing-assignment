@@ -102,8 +102,20 @@ const PriceContainer = styled.div`
 
 const PriceWrapper = styled.div`
   display: flex;
-
   align-items: center;
+`;
+
+const PriceTitle = styled.div`
+  font-size: 16px;
+  line-height: 21px;
+  color: #9c8c8c;
+`;
+
+const Price = styled.div`
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin-right: 8px;
 `;
 
 export const Card = ({
@@ -175,11 +187,9 @@ export const Card = ({
           <Divider />
 
           <PriceContainer>
-            <div style={{ fontSize: "16px", lineHeight: "21px", color: "#9C8C8C" }}>Cena od</div>
+            <PriceTitle>Cena od</PriceTitle>
             <PriceWrapper>
-              <div style={{ fontSize: "16px", fontWeight: "bold", color: "black", marginRight: "8px" }}>
-                {price + " Kč/den"}
-              </div>
+              <Price>{price + " Kč/den"}</Price>
               {instantBookable && <BoltIcon />}
             </PriceWrapper>
           </PriceContainer>
